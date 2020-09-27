@@ -1,5 +1,5 @@
 # CS-FrameTimer
- Generates recurring events in Cities Skylines.
+ Generates recurring events in [Cities Skylines](https://www.paradoxplaza.com/cities-skylines/).
 ## Using FrameTimer
 Initializes the singleton of `FrameSource` in your `LoadingExtensionBase`:
 ```C#
