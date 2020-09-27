@@ -9,6 +9,15 @@ public override void OnLevelLoaded(LoadMode mode) {
     // ...
 }
 ```
+Update `FrameSource` in every frame:
+```C#
+public override void OnBeforeSimulationFrame() {
+    base.OnBeforeSimulationFrame();
+    if (MyMod.Enabled && Loader.IsInGame) {
+        FrameSource.Instance.Notify();
+    }
+}
+```
 Initializes a new instance of `FrameTimer`:
 ```C#
 IFrameTimer frameTimer = new FrameTimer(FrameSource.Instance, 255);
