@@ -5,7 +5,7 @@ namespace FrameTiming.Example
 {
 	public class FrameTimerExampleThread : ThreadingExtensionBase
 	{
-		public override void OnBeforeSimulationTick() {
+		public override void OnBeforeSimulationFrame() {
 			if (FrameTimerExampleMod.Enabled && Loader.IsInGame) {
 				FrameSource.Instance.Notify();
 			}
