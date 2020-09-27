@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameTimer", "FrameTimer\FrameTimer.csproj", "{EDD862B3-C638-437A-A697-4D41063F628E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameTimer.Example", "Example\FrameTimer.Example.csproj", "{7148F482-DD99-4BBD-874A-72EC5CA53F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD862B3-C638-437A-A697-4D41063F628E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD862B3-C638-437A-A697-4D41063F628E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD862B3-C638-437A-A697-4D41063F628E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD862B3-C638-437A-A697-4D41063F628E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7148F482-DD99-4BBD-874A-72EC5CA53F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7148F482-DD99-4BBD-874A-72EC5CA53F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7148F482-DD99-4BBD-874A-72EC5CA53F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7148F482-DD99-4BBD-874A-72EC5CA53F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6459360-6C1B-4766-88A0-FDFF6BA217B1}
+	EndGlobalSection
+EndGlobal
