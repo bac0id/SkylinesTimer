@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-
+using ColossalFramework.Plugins;
 using FrameTiming;
 
 namespace FrameTiming.Example
@@ -19,6 +19,10 @@ namespace FrameTiming.Example
 				using (StreamWriter sw = new StreamWriter(Stream)) {
 					sw.WriteLine($"{DateTime.Now:g}\t{ElapsedCounter}");
 				}
+				DebugOutputPanel.AddMessage(
+					PluginManager.MessageType.Message,
+					$"{DateTime.Now:g}\t{ElapsedCounter}"
+				);
 			};
 			MyTickTimer.Start();
 		}
