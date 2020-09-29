@@ -1,28 +1,28 @@
-# CS-FrameTimer
+# SkylinesTimer
  Generates recurring events in [Cities Skylines](https://www.paradoxplaza.com/cities-skylines/).
-## Using FrameTimer
-Initializes the singleton of `FrameSource` in your `LoadingExtensionBase`:
+## Using SkylinesTimer
+Initializes the singleton of `SkylinesTimeSource` in your `LoadingExtensionBase`:
 ```C#
 public override void OnLevelLoaded(LoadMode mode) {
     // ...
-    FrameSource.Instance = new FrameSource(Singleton<SimulationManager>.instance);
+    SkylinesTimeSource.Instance = new SkylinesTimeSource(Singleton<SimulationManager>.instance);
     // ...
 }
 ```
-Update `FrameSource` in every frame:
+Update `SkylinesTimeSource` in every frame:
 ```C#
 public override void OnBeforeSimulationFrame() {
     base.OnBeforeSimulationFrame();
     if (MyMod.Enabled && Loader.IsInGame) {
-        FrameSource.Instance.Notify();
+        SkylinesTimeSource.Instance.OnFrameUpdate();
     }
 }
 ```
-Initializes a new instance of `FrameTimer`:
+Initializes a new instance of `SkylinesTimer`:
 ```C#
-IFrameTimer frameTimer = new FrameTimer(FrameSource.Instance, 255);
-frameTimer.Elapsed += () => { /*...*/ };
-frameTimer.Start();
+ISkylinesTimer timer = new SkylinesTimer(SkylinesTimeSource.Instance, 60);
+timer.Elapsed += () => { /*...*/ };
+timer.Start();
 ```
 ## Static Model
-![Static Model](https://github.com/bac0id/CS-FrameTimer/blob/master/static-model.png)
+![Static Model](https://github.com/bac0id/SkylinesTimer/blob/master/static-model.png)
