@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FrameTiming
+namespace SkylinesTiming
 {
 	public abstract class Observable
 	{

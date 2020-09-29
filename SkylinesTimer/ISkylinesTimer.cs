@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace FrameTiming
+namespace SkylinesTiming
 {
-	public interface IFrameTimer
+	public interface ISkylinesTimer
 	{
 		event Action Elapsed;
 		bool Enabled { get; set; }

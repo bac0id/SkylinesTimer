@@ -7,8 +7,8 @@
     <ProjectGuid>{EDD862B3-C638-437A-A697-4D41063F628E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FrameTiming</RootNamespace>
-    <AssemblyName>FrameTimer</AssemblyName>
+    <RootNamespace>SkylinesTiming</RootNamespace>
+    <AssemblyName>SkylinesTimer</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,10 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrameSource.cs" />
-    <Compile Include="FrameTimer.cs" />
-    <Compile Include="IFrameSource.cs" />
-    <Compile Include="IFrameTimer.cs" />
+    <Compile Include="SkylinesTimeSource.cs" />
+    <Compile Include="SkylinesTimer.cs" />
+    <Compile Include="ISkylinesTimeSource.cs" />
+    <Compile Include="ISkylinesTimer.cs" />
     <Compile Include="IObserver.cs" />
     <Compile Include="Observable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

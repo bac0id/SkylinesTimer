@@ -7,8 +7,8 @@
     <ProjectGuid>{7148F482-DD99-4BBD-874A-72EC5CA53F0D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FrameTimer.Example</RootNamespace>
-    <AssemblyName>FrameTimer.Example</AssemblyName>
+    <RootNamespace>SkylinesTiming.Example</RootNamespace>
+    <AssemblyName>SkylinesTimer.Example</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -51,16 +51,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrameTimerExampleMod.cs" />
+    <Compile Include="DebugLog.cs" />
+    <Compile Include="SkylinesTimerExampleMod.cs" />
     <Compile Include="FrameTimerExampleThread.cs" />
     <Compile Include="GameTimeOutputer.cs" />
     <Compile Include="Loader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FrameTimer\FrameTimer.csproj">
+    <ProjectReference Include="..\SkylinesTimer\SkylinesTimer.csproj">
       <Project>{edd862b3-c638-437a-a697-4d41063f628e}</Project>
-      <Name>FrameTimer</Name>
+      <Name>SkylinesTimer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

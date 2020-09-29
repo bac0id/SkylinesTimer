@@ -1,4 +1,4 @@
-﻿namespace FrameTiming
+﻿namespace SkylinesTiming
 {
 	public interface IObserver
 	{

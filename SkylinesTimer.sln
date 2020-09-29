@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameTimer", "FrameTimer\FrameTimer.csproj", "{EDD862B3-C638-437A-A697-4D41063F628E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkylinesTimer", "SkylinesTimer\SkylinesTimer.csproj", "{EDD862B3-C638-437A-A697-4D41063F628E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameTimer.Example", "Example\FrameTimer.Example.csproj", "{7148F482-DD99-4BBD-874A-72EC5CA53F0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkylinesTimer.Example", "SkylinesTimer.Example\SkylinesTimer.Example.csproj", "{7148F482-DD99-4BBD-874A-72EC5CA53F0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
