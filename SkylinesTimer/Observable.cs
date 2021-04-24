@@ -7,7 +7,9 @@ namespace SkylinesTiming
 		public event Action OnNotify;
 
 		public void Notify() {
-			this.OnNotify?.Invoke();
+			if (this.OnNotify != null) {
+				this.OnNotify.Invoke();
+			}
 		}
 	}
 }
