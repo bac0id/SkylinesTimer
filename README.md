@@ -1,5 +1,5 @@
 # SkylinesTimer
-Generates recurring events in [Cities Skylines](https://www.paradoxplaza.com/cities-skylines/). The interval of a `SkylinesTimer` is relevant to in-game time, instead of frame and simulation tick.
+Generates recurring events in the game [Cities Skylines](https://www.paradoxplaza.com/cities-skylines/). The interval of a `SkylinesTimer` is relevant to game speed. In anouther word, it take the user's game speed (like 1x > / 2x >> / 3x >>>) into account. 
 ## Using SkylinesTimer
 Initializes the singleton of `SkylinesTimeSource` in your `LoadingExtensionBase`:
 ```C#
